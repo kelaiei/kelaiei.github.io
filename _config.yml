@@ -8,7 +8,7 @@ subtitle: Coan Haeey
 description: both
 keywords:
 author: kelaiei
-language: en
+language: zh-CN
 timezone: ''
 email: 1414079885@qq.com
 
@@ -128,8 +128,8 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date 
- githubEmojis: 
+githubEmojis: 
   enable: true 
   className: github-emoji 
   inject: true 
-  styles: customEmojis: 
+  styles: customEmojis
