@@ -6,7 +6,7 @@
   <link href="http://kelaiei.top/atom.xml" rel="self"/>
   
   <link href="http://kelaiei.top/"/>
-  <updated>2020-08-31T14:42:26.120Z</updated>
+  <updated>2020-09-11T06:18:22.763Z</updated>
   <id>http://kelaiei.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用JS实现2048小游戏</title>
+    <link href="http://kelaiei.top/2020/09/11/2048-xiao-you-xi/"/>
+    <id>http://kelaiei.top/2020/09/11/2048-xiao-you-xi/</id>
+    <published>2020-09-11T04:10:00.000Z</published>
+    <updated>2020-09-11T06:18:22.763Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;用JavaScript制作2048小游戏&quot;&gt;&lt;a href=&quot;#用JavaScript制作2048小游戏&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://kelaiei.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="HTML" scheme="http://kelaiei.top/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://kelaiei.top/tags/CSS/"/>
+    
+    <category term="JS" scheme="http://kelaiei.top/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>mofang</title>

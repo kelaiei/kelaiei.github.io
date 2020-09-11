@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>用JS实现2048小游戏</title>
+      <link href="/2020/09/11/2048-xiao-you-xi/"/>
+      <url>/2020/09/11/2048-xiao-you-xi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="用JavaScript制作2048小游戏"><a href="#用JavaScript制作2048小游戏" class="headerlink" title="用JavaScript制作2048小游戏"></a>用JavaScript制作2048小游戏</h2><p>我们先来看下效果图</p><img src="/.top//0.png"><p>在做2048之前我们先要了解它的游戏规则，以及运行逻辑。</p><p>我先来介绍一下游戏规则:</p>2048游戏共有16个格子，初始时初始数字由2或者4构成。<p>1、手指向一个方向滑动，所有格子会向那个方向运动。</p><p>2、相同数字的两个格子，相撞时数字会相加。</p><p>3、每次滑动时，空白处会随机刷新出一个数字的格子。</p><p>4、当界面不可运动时（当界面全部被数字填满时），游戏<br>结束。</p><p>第一步我们先来做HTML部分</p><img src="/.top//1.png"><p>我们看到页面可以大致分为两个部分，上边分数部分和下边游戏界面,上边部分就不说了，下边部分就是一个大div里边有16个小的div，排成4x4的格子。下面是HTML源码。</p><p>```HTML<br><!DOCTYPE html></p><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,    minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">    <title>2048</title>    <link rel="stylesheet" type="text/css" href="css\2048.css">    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>    <script type="text/javascript" src="js\showanimation.js"></script>    <script type="text/javascript" src="js\support.js"></script>    <script type="text/javascript" src="js\main.js"></script></head><body>    <header>        <h1>2048</h1>        <a href="javascript:newgame();" id="newgamebutton">New Game</a>        <p>score:<span id="score">0</span></p>    </header>    <div id="grid-container">        <div class="grid-cell" id="grid-cell-0-0"></div>        <div class="grid-cell" id="grid-cell-0-1"></div>        <div class="grid-cell" id="grid-cell-0-2"></div>        <div class="grid-cell" id="grid-cell-0-3"></div><pre><code>    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-0&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-1&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-2&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-3&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-0&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-1&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-2&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-3&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-0&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-1&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-2&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-3&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;gameover&quot;&gt;    GAME OVER&lt;/div&gt;</code></pre></div></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> CSS </tag>
+            
+            <tag> JS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mofang</title>
       <link href="/2020/08/31/mofang/"/>
       <url>/2020/08/31/mofang/</url>
